@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contador de vocales en JavaScript!</title>
+</head>
+<body>
+    <h2>// Existen 2 maneras diferentes de hacerlo!!!!</h2>
+
+    <h2>function vowelCounter(str)</h2>
+        
+    <h2>{</h2>
+
+        <h2>let allVowels = 'aeiouAEIOU';</h2>
+
+        <h2>let vCounter = 0;</h2>
+        
+        <h2>// MEDIANTE UN CICLO "for":</h2>
+        
+        <h2>for (let i = 0; i < str.length; i++)</h2>
+    
+        <h2>{</h2>
+
+            <h2>if (allVowels.indexOf(str[i]) !== -1)</h2>
+
+            <h2>{</h2>
+
+                <h2>console.log("THE VALUE OF str[i] IS: " + str[i]);</h2>
+
+                <h2>vCounter += 1;</h2>
+
+                <h2>}</h2>
+
+            <h2>}</h2>
+
+            <h2>return vCounter;</h2>
+
+        <h2>}</h2>
+        
+        <h2>// VAMOS A VER CÓMO TRABAJA LA FUNCIÓN "indexOf":</h2>
+
+        <h2>// MEDIANTE QUÉ POSICIÓN SE ENCUENTRA LA VOCAL 'e':</h2>
+        
+        <h2>x = 'HelloMARSFOREVER472';</h2>
+
+        <h2>idx = x.indexOf('e');</h2>
+
+        <h2>console.log(idx);</h2>
+
+        <h2>// LA POSICIÓN EN LA QUE SE ENCUENTRA LA VOCAL 'e' ESTÁ EN 1.</h2>
+
+        <h2>// 2.- MEDIANTE QUÉ POSICIÓN SE ENCUENTRA LA VOCAL 'u':</h2>
+
+        <h2>x = 'HellouwMARSFOREVER472';</h2>
+
+        <h2>idx = x.indexOf('u');</h2>
+
+        <h2>console.log(idx);</h2>
+            
+        <h2>// LA POSICIÓN EN LA QUE SE ENCUENTRA LA VOCAL 'u' ESTÁ EN 5.</h2>
+            
+        <h2>// 3.- MEDIANTE QUÉ POSICIÓN SE ENCUENTRA LA VOCAL 'o':</h2>
+            
+        <h2>x = 'HellouwMARSFOREVER472';</h2>
+
+        <h2>idx = x.indexOf('o');</h2>
+
+        <h2>console.log(idx);</h2>
+            
+        <h2>// LA POSICIÓN EN LA QUE SE ENCUENTRA LA VOCAL 'e' ESTÁ EN 4.</h2>
+            
+        <h2>// 4.- MEDIANTE QUÉ POSICIÓN SE ENCUENTRA LA LETRA 'w' QUE NO ES VOCAL:</h2>
+            
+        <h2>x = 'HelloMARSFOREVER472';</h2>
+
+        <h2>idx = x.indexOf('w');</h2>
+
+        <h2>console.log(idx);</h2>
+            
+        <h2>// P.D. : PARA NUESTRO ALGORITMO, LO QUE NOS INTERESA SABER ES:</h2>
+            
+        <h2>// ¿QUÉ ME DEVUELVE EL MÉTODO "indexOf()" CUANDO LE PASAMOS UN CARÁCTER QUE NO SE ENCUENTRA EN UN STRING SOBRE LA CUAL APLICAMOS ESE MÉTODO?</h2>
+            
+        <h2>// EN ESTE ÚLTIMO EJEMPLO, LA LETRA 'w' NO SE ENCUENTRA EN ESTA FRASE, PUES ÉSTE DEVUELVE UN -1.</h2>
+        
+        <h2>// PARA ENTENDER EL DESARROLLO DEL CÓDIGO, NECESITAS ENTENDER CÓMO FUNCIONA EL MÉTODO "indexOf".</h2>
+
+    <script src="script.js"></script>   
+</body>
+</html>
