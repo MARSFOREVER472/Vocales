@@ -2,4 +2,4 @@
 
 ## **_Contador de vocales utilizando herramientas de desarrollador Front-End!_**
 
-### CONTADOR DE VOCALES EN JAVASCRIPT👨‍💻🎲💥
+### _CONTADOR DE VOCALES EN JAVASCRIPT👨‍💻🎲💥_
