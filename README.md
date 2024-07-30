@@ -1,3 +1,3 @@
 # **_Vocales_**
 
-Contador de vocales utilizando herramientas de desarrollador Front-End!
+## Contador de vocales utilizando herramientas de desarrollador Front-End!
