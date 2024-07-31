@@ -12,9 +12,13 @@
         
     <h2>{</h2>
 
-        <h2>let allVowels = 'aeiouAEIOU';</h2>
+        <h2>let allVowels = 'aeiouAEIOU'; // TODAS LAS VOCALES.</h2>
 
-        <h2>let vCounter = 0;</h2>
+        <h2>let allVowels = ["a", "e", "i", "o", "u"]; // VARIABLE ALTERNATIVA.</h2>
+
+        <h2>let vCounter = 0; // INICIALIZA EL CONTADOR DE VOCALES DESDE 0.</h2>
+
+        <h2>// VAMOS A MEJORAR NUESTO CÓDIGO...</h2>
         
         <h2>// MEDIANTE UN CICLO "for":</h2>
         
@@ -34,9 +38,45 @@
 
             <h2>}</h2>
 
+            <h2>// EL MÉTODO "toLowerCase()" CONVIERTE LOS CARÁCTERES DE "str" A MINÚSCULAS...</h2>
+
+            <h2>for (let i of str.toLowerCase())</h2>
+                
+            <h2>{</h2>
+
+                <h2>if (allVowels.includes(i))</h2>
+
+                <h2>{</h2>
+
+                    <h2>vCounter++;</h2>
+
+                <h2>}</h2>
+
+            <h2>}</h2>
+
+            <h2>console.log(`Your original string is: \n ${str} \n`);</h2>
+
+            <h2>console.log(`The text contains ${vCounter} vowel(s).`);</h2>
+
             <h2>return vCounter;</h2>
 
         <h2>}</h2>
+
+        <h2>console.log(vowelCounter("Hello Transantofapasta and companies!"));</h2>
+
+        <h2>// RECAPITULANDO:
+
+        <h2>// ENTENDIENDO EL MÉTODO "includes()"...</h2>
+            
+        <h2>// let cities = ['Miami', 'Paris', 'London', 'Madrid'];</h2>
+            
+        <h2>// console.log(cities.includes(London));</h2>
+            
+        <h2>// LA SALIDA SERÁ "TRUE".</h2>
+            
+        <h2>// console.log(cities.includes(Atlanta));</h2>
+            
+        <h2>// LA SALIDA SERÁ: "FALSE".</h2>
         
         <h2>// VAMOS A VER CÓMO TRABAJA LA FUNCIÓN "indexOf":</h2>
 

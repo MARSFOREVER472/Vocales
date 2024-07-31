@@ -2,10 +2,16 @@
 
 function vowelCounter(str)
 {
-    let allVowels = 'aeiouAEIOU'; // TODAS LAS VOCALES.
+    // let allVowels = 'aeiouAEIOU'; // TODAS LAS VOCALES.
+    
+    let allVowels = ["a", "e", "i", "o", "u"]; // OTRA FORMA DE HACERLO...
     let vCounter = 0; // CONTADOR DE VOCALES.
 
+    // VAMOS A MEJORAR NUESTRO CÓDIGO...
+
     // MEDIANTE UN CICLO "for":
+
+    /*
 
     for (let i = 0; i < str.length; i++)
     {
@@ -15,10 +21,39 @@ function vowelCounter(str)
             vCounter += 1;
         }
     }
+
+    */
+
+    // EL MÉTODO "toLowerCase()" CONVIERTE LOS CARÁCTERES DE "str" A MINÚSCULAS...
+
+    for (let i of str.toLowerCase())
+    {
+        if (allVowels.includes(i))
+        {
+            vCounter++;
+        }
+    }
+
+    console.log(`Your original string is: \n ${str} \n`);
+    console.log(`The text contains ${vCounter} vowel(s).`);
     return vCounter;
 }
 
 console.log(vowelCounter("Hello Transantofapasta and companies!"));
+
+// RECAPITULANDO:
+
+// ENTENDIENDO EL MÉTODO "includes()"...
+
+// let cities = ['Miami', 'Paris', 'London', 'Madrid'];
+
+// console.log(cities.includes(London));
+
+// LA SALIDA SERÁ "TRUE".
+
+// console.log(cities.includes(Atlanta));
+
+// LA SALIDA SERÁ: "FALSE".
 
 // VAMOS A VER CÓMO TRABAJA LA FUNCIÓN "indexOf":
 
