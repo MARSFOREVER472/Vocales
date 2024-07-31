@@ -9,4 +9,5 @@
 - **_Algoritmos en Javascript: Cómo obtener el número de vocales en JavaScript!_**
 
 - **_En este proyecto te proponemos un ejercicio de donde vamos a ver cómo contar el número de vocales existentes en una cadena de texto o string._**
+
  Es un algoritmo muy interesante que podemos realizar en Javascript.
