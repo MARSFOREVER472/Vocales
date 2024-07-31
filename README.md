@@ -4,4 +4,4 @@
 
 ### **_CONTADOR DE VOCALES EN JAVASCRIPT👨‍💻🎲💥:_**
 
-**_Cómo contar el número de vocales existentes en una string/frase utilizando código Javascript._**
+- **_Cómo contar el número de vocales existentes en una string/frase utilizando código Javascript._**
