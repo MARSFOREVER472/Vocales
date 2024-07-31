@@ -6,4 +6,4 @@
 
 - **_Cómo contar el número de vocales existentes en una string/frase utilizando código Javascript._**
 
-- _Algoritmos en Javascript: Cómo obtener el número de vocales en JavaScript!_
+- **_Algoritmos en Javascript: Cómo obtener el número de vocales en JavaScript!_**
